@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "my_jd_extraction_api/api/main.py",
+      "src": "run.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "my_jd_extraction_api/api/main.py"
+      "dest": "run.py"
     }
   ]
 } 

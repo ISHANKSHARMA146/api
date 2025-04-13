@@ -3,6 +3,10 @@ Simple script to run the Job Description Extraction & Enhancement API
 """
 import uvicorn
 import os
+from my_jd_extraction_api.api.main import app
+
+# Export app object for Vercel
+app = app
 
 if __name__ == "__main__":
     # Get port from environment variable or use default

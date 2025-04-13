@@ -1,0 +1,12 @@
+fastapi
+pydantic
+pydantic-settings
+uvicorn
+python-multipart
+openai
+httpx
+PyPDF2
+python-docx
+pillow
+pytesseract
+lxml 
