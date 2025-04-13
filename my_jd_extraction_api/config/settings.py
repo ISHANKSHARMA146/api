@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     
     # OpenAI Configuration
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
-    GPT_MODEL: str = os.getenv("GPT_MODEL", "gpt-4o")
+    GPT_MODEL: str = os.getenv("GPT_MODEL", "gpt-4o-mini")
     
     # Logging
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
